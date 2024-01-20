@@ -1,20 +1,13 @@
 package main.org.offer.geollan.jz25;
 
+import main.org.offer.geollan.utils.ListNode;
+
 /**
  * @Description 迭代法 时间复杂度O(M+N) 空间复杂度O(1)
  * @Date: 2024/1/18 10:21
  * @Author: Geollan
  **/
 public class Solution01 {
-    class ListNode {
-        int val;
-        ListNode next = null;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     public ListNode Merge(ListNode pHead1, ListNode pHead2) {
         ListNode head = new ListNode(0);
         ListNode prev = head;
