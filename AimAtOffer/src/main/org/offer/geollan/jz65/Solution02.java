@@ -7,9 +7,8 @@ package main.org.offer.geollan.jz65;
  **/
 public class Solution02 {
     public int Add(int num1, int num2) {
-        if (num2 == 0) {
+        if (num2 == 0)
             return num1;
-        }
 
         return Add(num1 ^ num2, (num1 & num2) << 1);
     }
