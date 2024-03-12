@@ -1,5 +1,7 @@
 package main.org.offer.geollan.jz32;
 
+import java.util.HashMap;
+
 /**
  * @Description 迭代/Boolean（节省空间） 时间复杂度O(N) 空间复杂度O(1)
  * @Date: 2024/3/12 09:22

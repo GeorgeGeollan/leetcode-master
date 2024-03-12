@@ -1,5 +1,7 @@
 package main.org.offer.geollan.jz50;
 
+import java.util.HashMap;
+
 /**
  * @Description 迭代/哈希表（使用Integer） 时间复杂度O(N) 空间复杂度O(1)
  * @Date: 2024/3/12 09:07
