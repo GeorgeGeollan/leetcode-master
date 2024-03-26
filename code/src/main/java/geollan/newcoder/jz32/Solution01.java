@@ -3,8 +3,7 @@ package geollan.newcoder.jz32;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import main.org.offer.geollan.utils.TreeNode;
+import geollan.newcoder.utils.TreeNode;
 
 /**
  * @Description 迭代/层序遍历 时间复杂度O(N) 空间复杂度O(N)

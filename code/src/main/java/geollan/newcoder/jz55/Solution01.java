@@ -1,6 +1,6 @@
 package geollan.newcoder.jz55;
 
-import main.org.offer.geollan.utils.TreeNode;
+import geollan.newcoder.utils.TreeNode;
 
 /**
  * @Description 递归 时间复杂度O(N) 空间复杂度O(H) H就是树的高度

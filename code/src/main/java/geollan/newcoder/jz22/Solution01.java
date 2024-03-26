@@ -1,8 +1,8 @@
 package geollan.newcoder.jz22;
 
-import java.util.ArrayList;
+import geollan.newcoder.utils.ListNode;
 
-import main.org.offer.geollan.utils.ListNode;
+import java.util.ArrayList;
 
 /**
  * @Description 迭代/额外空间记录元素 时间复杂度O(N) 空间复杂度O(N)

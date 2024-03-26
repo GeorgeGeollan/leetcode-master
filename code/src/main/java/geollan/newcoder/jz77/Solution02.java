@@ -1,11 +1,11 @@
-package main.org.offer.geollan.jz77;
+package geollan.newcoder.jz77;
+
+import geollan.newcoder.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import main.org.offer.geollan.utils.TreeNode;
 
 /**
  * @Description

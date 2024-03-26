@@ -2,7 +2,7 @@ package geollan.newcoder.jz27;
 
 import java.util.Stack;
 
-import main.org.offer.geollan.utils.TreeNode;
+import geollan.newcoder.utils.TreeNode;
 
 /**
  * @Description 迭代/辅助栈 时间复杂度O(N) 空间复杂度O(N)

@@ -1,6 +1,6 @@
 package geollan.newcoder.jz36;
 
-import main.org.offer.geollan.utils.TreeNode;
+import geollan.newcoder.utils.TreeNode;
 
 /**
  * @Description

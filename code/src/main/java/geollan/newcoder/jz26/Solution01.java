@@ -1,7 +1,6 @@
 package geollan.newcoder.jz26;
 
-import main.org.offer.geollan.utils.TreeNode;
-
+import geollan.newcoder.utils.TreeNode;
 /**
  * @Description 递归 时间复杂度O(MN) 空间复杂度O(M) MN分别为AB节点数量
  * @Date: 2024/1/30 16:21

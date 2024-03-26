@@ -1,8 +1,8 @@
 package geollan.newcoder.jz23;
 
-import java.util.HashSet;
+import geollan.newcoder.utils.ListNode;
 
-import main.org.offer.geollan.utils.ListNode;
+import java.util.HashSet;
 
 /**
  * @Description 迭代+Set 时间复杂度O(N) 空间复杂度O(N)

@@ -1,9 +1,9 @@
 package geollan.newcoder.jz55;
 
+import geollan.newcoder.utils.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
-
-import main.org.offer.geollan.utils.TreeNode;
 
 /**
  * @Description 迭代/BFS 时间复杂度O(N) 空间复杂度O(N)

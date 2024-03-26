@@ -1,6 +1,6 @@
 package geollan.newcoder.jz22;
 
-import main.org.offer.geollan.utils.ListNode;
+import geollan.newcoder.utils.ListNode;
 
 /**
  * @Description 迭代/两次遍历 时间复杂度O(N) 空间复杂度O(1)
