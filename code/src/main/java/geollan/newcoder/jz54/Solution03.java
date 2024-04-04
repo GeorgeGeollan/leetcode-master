@@ -1,6 +1,6 @@
 package geollan.newcoder.jz54;
 
-import geollan.newcoder.utils.TreeNode;
+import geollan.utils.TreeNode;
 
 /**
  * @Description 递归/中序遍历 时间复杂度O(N) 空间复杂度O(N)

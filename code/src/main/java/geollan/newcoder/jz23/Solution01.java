@@ -1,6 +1,6 @@
 package geollan.newcoder.jz23;
 
-import geollan.newcoder.utils.ListNode;
+import geollan.utils.ListNode;
 
 import java.util.HashSet;
 

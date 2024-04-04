@@ -1,6 +1,6 @@
 package geollan.newcoder.jz77;
 
-import geollan.newcoder.utils.TreeNode;
+import geollan.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;

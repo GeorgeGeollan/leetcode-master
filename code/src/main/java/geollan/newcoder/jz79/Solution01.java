@@ -1,6 +1,6 @@
 package geollan.newcoder.jz79;
 
-import geollan.newcoder.utils.TreeNode;
+import geollan.utils.TreeNode;
 
 /**
  * @Description

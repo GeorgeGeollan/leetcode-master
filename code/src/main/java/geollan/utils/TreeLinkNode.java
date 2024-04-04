@@ -1,4 +1,4 @@
-package geollan.newcoder.utils;
+package geollan.utils;
 
 /**
  * @Description

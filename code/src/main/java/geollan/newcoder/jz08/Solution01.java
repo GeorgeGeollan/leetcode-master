@@ -1,6 +1,6 @@
 package geollan.newcoder.jz08;
 
-import geollan.newcoder.utils.TreeLinkNode;
+import geollan.utils.TreeLinkNode;
 
 import java.util.ArrayList;
 

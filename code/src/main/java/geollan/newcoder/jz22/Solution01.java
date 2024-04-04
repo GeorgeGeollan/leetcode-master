@@ -1,6 +1,6 @@
 package geollan.newcoder.jz22;
 
-import geollan.newcoder.utils.ListNode;
+import geollan.utils.ListNode;
 
 import java.util.ArrayList;
 
