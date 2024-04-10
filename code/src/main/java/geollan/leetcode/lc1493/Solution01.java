@@ -15,7 +15,7 @@ public class Solution01 {
                 cnt++;
             }
 
-            else if(nums[right] == 0 && hasZero == false) {
+            else if(nums[right] == 0 && !hasZero) {
                 zeroIdx = right;
                 hasZero = true;
             }
@@ -29,6 +29,6 @@ public class Solution01 {
             maxCnt = Math.max(maxCnt, cnt);
         }
 
-        return hasZero == false? maxCnt - 1 : maxCnt;
+        return !hasZero? maxCnt - 1 : maxCnt;
     }
 }
