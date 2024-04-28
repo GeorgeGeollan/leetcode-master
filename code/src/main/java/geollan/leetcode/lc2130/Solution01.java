@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description
+ * @Description 额外数组法 时间复杂度O(N) 空间复杂度O(N)
  * @Date: 2024/4/28 8:59
  * @Author: Geollan
  **/
