@@ -9,7 +9,6 @@ public class Solution01 {
     public int maxArea(int[] height) {
         int n = height.length;
         int left = 0, right = n - 1;
-
         int maxRect = 0;
 
         while(left < right) {
