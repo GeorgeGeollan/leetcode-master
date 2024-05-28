@@ -1,4 +1,4 @@
-package geollan.leetcode.lc5;
+package geollan.leetcode.lc05;
 
 /**
  * @Description 中心扩散法 时间复杂度O(N) 空间复杂度O(1)
