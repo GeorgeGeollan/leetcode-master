@@ -1,4 +1,4 @@
-package geollan.leetcode.lc2;
+package geollan.leetcode.lc02;
 
 import geollan.utils.ListNode;
 
