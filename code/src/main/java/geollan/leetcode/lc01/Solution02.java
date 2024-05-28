@@ -1,4 +1,4 @@
-package geollan.leetcode.lc1;
+package geollan.leetcode.lc01;
 
 import java.util.HashMap;
 

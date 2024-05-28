@@ -1,4 +1,4 @@
-package geollan.leetcode.lc1;
+package geollan.leetcode.lc01;
 
 /**
  * @Description 穷举法 时间复杂度O(N*N) 空间复杂度O(1)
