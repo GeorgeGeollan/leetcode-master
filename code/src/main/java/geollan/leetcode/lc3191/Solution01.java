@@ -18,7 +18,6 @@ public class Solution01 {
             }
         }
 
-
         return nums[n - 1] == 1 && nums[n - 2] == 1 ? ans : -1;
     }
 }
