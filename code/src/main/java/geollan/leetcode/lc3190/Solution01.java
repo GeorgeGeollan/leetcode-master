@@ -1,4 +1,4 @@
-package geollan.leetcode.lc100345;
+package geollan.leetcode.lc3190;
 
 /**
  * @Description
