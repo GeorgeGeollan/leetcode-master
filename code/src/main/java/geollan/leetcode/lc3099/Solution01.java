@@ -1,7 +1,7 @@
 package geollan.leetcode.lc3099;
 
 /**
- * @Description 时间复杂度O(N) 空间复杂度O(1)
+ * @Description 时间复杂度O(logN) 空间复杂度O(1)
  * @Date: 2024/7/3 9:33
  * @Author: Geollan
  **/
