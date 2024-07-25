@@ -1,29 +1,65 @@
 package geollan.leetcode.lc16;
 
-import java.util.Stack;
+import java.util.Arrays;
 
 /**
- * @Description 堆 时间复杂度O(N) 空间复杂度O(N)
- * @Date: 2024/6/17 9:32
+ * @Description 时间复杂度O(N*N) 空间复杂度O(1)
+ * @Date: 2024/7/25 10:03
  * @Author: Geollan
  **/
 public class Solution01 {
-    public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        char[] words = s.toCharArray();
+    class Solution {
+        public int threeSumClosest(int[] nums, int target) {
+            Arrays.sort(nums);
+            int n = nums.length, ans = 0;
+            int minDiff = Integer.MAX_VALUE;
 
-        for(char word: words) {
-            if(word == ']' || word == '}' || word == ')') {
-                if(stack.isEmpty()) return false;
-                else if(word == ']' && stack.peek() == '[') stack.pop();
-                else if(word == ')' && stack.peek() == '(') stack.pop();
-                else if(word == '}' && stack.peek() == '{') stack.pop();
-                else return false;
+            for(int i = 0; i < n - 2; i++) {
+                if(i > 0 && nums[i] == nums[i - 1]) continue;
+
+                int s = nums[i] + nums[i + 1] + nums[i + 2];
+                if(s > target) {
+                    if(s - target < minDiff) {
+                        ans = s;
+                    }
+
+                    break;
+                }
+
+                s = nums[i] + nums[nums.length - 1] + nums[nums.length - 2];
+                if(s < target) {
+                    if(target - s < minDiff) {
+                        minDiff = target - s;
+                        ans = s;
+                    }
+                    continue;
+                }
+
+
+                int j = i + 1, k = n - 1;
+                while(j < k) {
+                    s = nums[i] + nums[j] + nums[k];
+                    if(target == s) return s;
+
+                    if(s < target) {
+                        if(target - s < minDiff) {
+                            minDiff = target - s;
+                            ans = s;
+                        }
+                        j++;
+                    }
+
+                    if(s > target) {
+                        if(s - target < minDiff) {
+                            minDiff = s - target;
+                            ans = s;
+                        }
+                        k--;
+                    }
+                }
             }
 
-            else stack.push(word);
+            return ans;
         }
-
-        return stack.isEmpty();
     }
 }
