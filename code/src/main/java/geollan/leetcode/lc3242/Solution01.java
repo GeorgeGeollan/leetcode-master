@@ -1,4 +1,4 @@
-package geollan.leetcode.lc3236;
+package geollan.leetcode.lc3242;
 
 /**
  * @Description 时间复杂度O(MN) 空间复杂度O(1)
