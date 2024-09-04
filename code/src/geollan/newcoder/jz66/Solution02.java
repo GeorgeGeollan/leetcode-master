@@ -1,4 +1,4 @@
-package main.org.offer.geollan.jz66;
+package geollan.newcoder.jz66;
 
 /**
  * @Description 迭代/双数组 时间复杂度O(N) 空间复杂度O(N)
