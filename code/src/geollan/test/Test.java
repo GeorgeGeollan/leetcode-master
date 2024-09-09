@@ -7,9 +7,7 @@ package geollan.test;
  **/
 public class Test {
     public static void main(String[] args) {
-//        ThreadLocal tl = new ThreadLocal();
-//        tl.set("Geollan");
-//        tl.get();
-        System.out.println("Hello World");
+        ThreadLocal tl = new ThreadLocal();
+        tl.set("Geollan");
     }
 }
