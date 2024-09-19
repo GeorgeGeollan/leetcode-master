@@ -8,6 +8,7 @@ package geollan.leetcode.lc2400_2499.lc2414;
 public class Solution01 {
     public int longestContinuousSubstring(String s) {
         char[] ch = s.toCharArray();
+
         int cnt = 1;
         int max = 1;
 
