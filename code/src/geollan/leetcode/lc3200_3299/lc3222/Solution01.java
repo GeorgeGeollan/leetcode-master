@@ -8,7 +8,6 @@ package geollan.leetcode.lc3200_3299.lc3222;
 public class Solution01 {
     public String losingPlayer(int x, int y) {
         int cnt = 0;
-
         while(x >= 0 && y >= 0) {
             x -= 1;
             y -= 4;
