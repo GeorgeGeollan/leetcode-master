@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm-master.iml" filepath="$PROJECT_DIR$/.idea/algorithm-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/code.iml" filepath="$PROJECT_DIR$/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leetcode-master.iml" filepath="$PROJECT_DIR$/.idea/leetcode-master.iml" />
     </modules>
   </component>
 </project>
