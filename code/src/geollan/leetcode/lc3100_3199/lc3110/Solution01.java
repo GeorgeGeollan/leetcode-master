@@ -14,5 +14,6 @@ public class Solution01 {
         }
 
         return score;
+
     }
 }
