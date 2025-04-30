@@ -1,4 +1,4 @@
-package geollan.leetcode.lc1200_1299.lc1207;
+package src.geollan.leetcode.lc1200_1299.lc1207;
 
 import java.util.HashSet;
 

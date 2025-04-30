@@ -1,4 +1,4 @@
-package geollan.leetcode.lc1100_1199.lc1161;
+package src.geollan.leetcode.lc1100_1199.lc1161;
 
 import geollan.utils.TreeNode;
 
